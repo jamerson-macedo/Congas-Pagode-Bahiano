@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/piso"
+    tools:context="congaspagodebahiano.jmdevelopers.com.congaspagodebahiano.MainActivity"
+    tools:layout_editor_absoluteY="25dp"
+    android:weightSum="100"
+    android:orientation="horizontal">
+<LinearLayout
+    android:layout_weight="33"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+
+
+    >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25" />
+
+    <ImageView
+        android:id="@+id/congamediaID"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="60"
+
+        android:background="@drawable/congap" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="33"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/congaAgudaID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="60"
+            android:background="@drawable/congap" />
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_weight="33"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25" />
+    <ImageView
+        android:id="@+id/congagraveID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+
+
+        android:background="@drawable/congap"
+         />
+
+</LinearLayout>
+
+</LinearLayout>
